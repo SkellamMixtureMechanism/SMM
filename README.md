@@ -14,7 +14,7 @@ An example python script for computing the privacy guarantee of SMM for distribu
 
 </pre><code>python3 smm_dse_analysis.py --gamma=64 --mu=5.95</code></pre>
 
-By default, we estimate the privacy parameter $\epsilon$ with target \$delta\$ set to $10^{-5}$, as we adopt the classic framework (epsilon,delta)-DP. In addition, the data point is sampled i.i.d. from a unit sphere $r=1$. Finally, each client applies a scale parameter of \$gamma=64\$ and injects Skellam noise sampled from $Sk(mu,mu)$ with $mu=5.95$ to the data. The script also returns the \$l-infinity\$ clipping bound for the data points. 
+By default, we estimate the privacy parameter $\epsilon$ with target \$delta\$ set to $10^{-5}$, as we adopt the classic framework (epsilon,delta)-DP. In addition, the data point is sampled i.i.d. from a unit sphere $r=1$. Finally, each client applies a scale parameter of \$gamma=64\$ and injects Skellam noise sampled from $Sk(mu,mu)$ with $mu=5.95$ to the data. The script also returns the l-infinity clipping bound for the data points. 
 
 By setting the l-infinity clipping bound to $5.94$, we compute the error of SMM under \$32\$ bitwidth per dimension as follows.
 
