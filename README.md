@@ -2,7 +2,11 @@
 
 This repository provides Skellam Mixture Mechanism.
 
-## SMM for mean estimation
+## SMM for distributed sum estimation
+
+An example python script for computing the privacy guarantee of estimating the distributed sum of $n=100$ clients' data, where the data is sampled i.i.d. from a unit sphere of radius $r=1$, scale parameter $\gamma=64$ and each client injects a Skellam noise sampled from $Sk(mu,mu)$ is as follows. The target $\delta$ is set to $1e-5$ by default.
+
+</pre><code>python3 smm_dse_analysis.py --gamma=64 --mu=5.95</code></pre>
 
 ## SMM for MNIST
 
