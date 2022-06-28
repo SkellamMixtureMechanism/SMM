@@ -6,7 +6,7 @@ This repository provides Skellam Mixture Mechanism.
 
 ## Exact Skellam Sampler
 
-The folder exact_skellam provides an exact sampler for generating **symmetric Skellam** variates in python. 
+Script </pre><code>skellam.py</code></pre> under folder exact_skellam provides an exact sampler for generating **symmetric Skellam** variates in python. 
 
 A **symmetric Skellam** variate is the difference between two independent **Poisson** variates of the same variance.
 
