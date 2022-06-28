@@ -1,6 +1,12 @@
 # Skellam Mixture Mechanism: a Novel Approach to Federated Learning with Differential Privacy
 
-This repository provides Skellam Mixture Mechanism.
+This repository provides the python3 implementation for Skellam Mixture Mechanism.
+
+## Dependencies
+scipy
+numpy
+tensorflow
+
 
 ## SMM for distributed sum estimation
 
