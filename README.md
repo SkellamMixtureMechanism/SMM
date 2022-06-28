@@ -1,23 +1,12 @@
-### Hi there 👋
+# Skellam Mixture Mechanism: a Novel Approach to Federated Learning with Differential Privacy
 
-<!--
-**SkellamMixtureMechanism/SkellamMixtureMechanism** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+This repository provides Skellam Mixture Mechanism.
 
-Here are some ideas to get you started:
+## SMM
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+## Exact Skellam Sampler
 
-# exact_skellam
-
-An exact sampler for generating **symmetric Skellam** variates in python. 
+The folder exact_skellam provides an exact sampler for generating **symmetric Skellam** variates in python. 
 
 A **symmetric Skellam** variate is the difference between two independent **Poisson** variates of the same variance.
 
