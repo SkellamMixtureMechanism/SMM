@@ -8,7 +8,7 @@ This repository provides Skellam Mixture Mechanism.
 
 Script </pre><code>skellam.py</code></pre> under folder </pre><code>exact_skellam</code></pre> benchmarks the running time for generating **symmetric Skellam** variates in python. 
 
-An example script, which simulates the generation of $100$ samples is as follows.
+An example script, which repeatedly generates of $100$ samples from $Sk(\frac{8}{3},\frac{8}{3})$ for $10$ times, is as follows.
 
 </pre><code>python skellam.py --mx=8 --my=3 --size=100 --m=10</code></pre>
 
