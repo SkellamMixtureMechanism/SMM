@@ -4,9 +4,11 @@ This repository provides Skellam Mixture Mechanism.
 
 ## SMM for distributed sum estimation
 
-An example python script for computing the privacy parameter $\epsilon$ 
+An example python script for computing the privacy guarantee of a distributed sum estimation task is as follows.
 
 </pre><code>python3 smm_dse_analysis.py --gamma=64 --mu=5.95</code></pre>
+
+By default, we estimate the privacy parameter $\epsilon$ with target $\Delta$ set to $10^{-5}$. 
 
 ## SMM for MNIST
 
