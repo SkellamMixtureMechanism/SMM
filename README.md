@@ -2,7 +2,11 @@
 
 This repository provides Skellam Mixture Mechanism.
 
-## SMM
+## SMM for mean estimation
+
+## SMM for MNIST
+
+### SMM using fast Walsh-Hadamard transform
 
 ## Exact Skellam Sampler
 
