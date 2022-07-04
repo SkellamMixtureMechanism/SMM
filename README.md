@@ -3,9 +3,10 @@
 This repository provides the python3 implementation for Skellam Mixture Mechanism.
 
 ## Dependencies
-scipy
-numpy
-tensorflow
+scipy,
+numpy,
+tensorflow,
+and log_maths.py for logarithm mathematics as used in tf-privacy.
 
 
 ## SMM for distributed sum estimation
